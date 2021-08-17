@@ -7,8 +7,8 @@
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --verbose --runInBand --testLocationInResults --setupFiles dotenv/config",
     "test:watch": "npm run test -- --watch",
-    "start": "node -r dotenv/config server.js",
-    "start:watch": "nodemon -r dotenv/config server.js",
+    "start": "node --experimental-json-modules -r dotenv/config server.js",
+    "start:watch": "nodemon --experimental-json-modules -r dotenv/config server.js",
     "setup-db": "node --experimental-json-modules -r dotenv/config setup-db.js",
     "setup-db:heroku": "heroku run npm run setup-db",
     "create-heroku-db": "heroku addons:create heroku-postgresql:hobby-dev",
