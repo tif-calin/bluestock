@@ -20,7 +20,6 @@ const munge = portfolio => {
   if (rest.mail) tags.push('has_mail');
 
   rest.tld = rest.site.split('/')[2].split('.').at(-1);
-  console.log(rest);
   rest.url_length = rest.site.split('//')[1].length;
   rest.last_updated = Date.now();
 

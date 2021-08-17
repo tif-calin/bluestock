@@ -2,7 +2,6 @@ import pool from '../lib/utils/pool.js';
 import setup from '../data/setup.js';
 import request from 'supertest';
 import app from '../lib/app.js';
-import ThingService from '../lib/services/ThingService.js';
 
 describe('auth routes', () => {
 
@@ -25,7 +24,6 @@ describe('auth routes', () => {
     expect(res.body).toEqual({
       id: expect.any(String),
       username: 'test',
-      token: expect.any(String),
       passwordHash: expect.any(String),
       createdAt: expect.any(String)
     });
@@ -45,10 +43,52 @@ describe('things routes', () => {
 
   beforeEach(async () => {
     setup(pool);
-    await ThingService.uploadData();
   });
 
-  test('', async () => {
-    
+  test('GET to /api/v1/things/', async () => {
+    const res = await request(app).get('/api/v1/things/');
+
+    expect(res.status).toBe(200);
+    expect(res.body).toEqual(expect.any(Array));
   });
+
+});
+
+describe('stars routes', () => {
+
+  const agent = request.agent(app);
+
+  const login = {
+    username: 'test',
+    password: 'test',
+  };
+
+  beforeAll(() => {
+    return setup(pool);
+  });
+
+  afterEach(() => {
+    return setup(pool);
+  });
+
+  test('POST star to /api/v1/stars', async () => {
+    const user = await agent.post('/api/v1/auth/signup').send(login)
+      .then(() => agent.post('/api/v1/auth/login').send(login))
+      .then(res => res.body)
+    ;
+
+    const res = await agent.post('/api/v1/stars').send({
+      thingId: '1',
+      userId: user.id
+    });
+
+    expect(res.status).toBe(200);
+    expect(res.body).toEqual({
+      id: '1',
+      thingId: '1',
+      userId: user.id,
+      createdAt: expect.any(String)
+    });
+  });
+
 });
