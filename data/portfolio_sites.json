@@ -1,0 +1,203 @@
+[
+	{
+		"name": "Seth Godin",
+		"site": "https://www.sethgodin.com/",
+		"desc": "author, entrepreneur and most of all, a teacher",
+    "lang": "en",
+    "blog": "https://seths.blog/",
+    "mail": "seth@sethgodin.com",
+    "face": "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1088009/hsvix5u9cmzjphtcj5jq.png",
+    "view": {},
+    "link": {
+      "facebook": "http://www.facebook.com/sethgodin",
+      "twitter": "http://www.twitter.com/thisissethsblog"
+    },
+    "css_overview": {
+      "background_color": "ffffff",
+      "colors": 29,
+      "top_font": "Times New Roman"
+    },
+
+    "blog_rss": "https://feeds.feedblitz.com/sethsblog",
+    "wiki": "https://en.wikipedia.org/wiki/Seth_Godin",
+    "book_count": 24,
+
+    "single_page": false,
+    "blog_centric": false
+	},
+	{
+		"name": "Evan You",
+		"site": "https://evanyou.me/",
+		"desc": "independent software developer and the creator of the open source javaScript framework vue.js",
+    "lang": "en",
+    "blog": null,
+    "mail": null,
+    "face": null,
+    "view": {},
+    "link": {
+      "github": "https://github.com/yyx990803",
+      "twitter": "https://twitter.com/youyuxi",
+      "weibo": "https://www.weibo.com/arttechdesign",
+      "zhihu": "https://www.zhihu.com/people/evanyou"
+    },
+    "css_overview": {
+      "background_color": "ffffff",
+      "colors": 3,
+      "top_font": "Rubik"
+    },
+
+    "major_software": ["vue.js"],
+    "name_zh": "尤雨溪",
+    "hobbies": ["gaming", "karaoke", "sushi", "watch-collecting"],
+
+    "single_page": true,
+    "blog_centric": false
+	},
+	{
+		"name": "Sid Shanker",
+		"site": "https://squidarth.com/",
+		"desc": "programmer living in nyc, currently working at twitter, alumni of recurse center",
+    "lang": "en",
+    "blog": "https://squidarth.com/",
+    "mail": "sid.p.shanker@gmail.com",
+    "face": null,
+    "view": {},
+    "link": {
+      "github": "https://github.com/squidarth",
+      "twitter": "https://twitter.com/sidpshanker"
+    },
+    "css_overview": {
+      "background_color": "ffffff",
+      "colors": 7,
+      "top_font": "Source Sans Pro"
+    },
+
+    "works_for": "Twitter",
+    "hobbies": ["gaming"],
+
+    "single_page": false,
+    "blog_centric": true
+	},
+	{
+		"name": "Fred Hebert",
+		"site": "https://ferd.ca/",
+		"desc": "developer and author of some erlang books",
+    "lang": "en",
+    "blog": "https://ferd.ca/",
+    "mail": "mononcqc+ferdca@ferd.ca",
+    "face": null,
+    "view": {},
+    "link": {
+      "twitter": "http://twitter.com/mononcqc/"
+    },
+    "css_overview": {
+      "background_color": "f8f8f8",
+      "colors": 7,
+      "top_font": "PT Sans"
+    },
+
+    "blog_rss": "https://ferd.ca/feed.rss",
+
+    "single_page": false,
+    "blog_centric": true
+	},
+	{
+		"name": "John Earnest",
+		"site": "https://beyondloom.com/",
+		"desc": "tinkers with code, makes games and a webcomic",
+    "lang": "en",
+    "blog": "https://beyondloom.com/blog/",
+    "mail": "john@beyondloom.com",
+    "face": null,
+    "view": {},
+    "link": {
+      "github": "https://github.com/JohnEarnest"
+    },
+    "css_overview": {
+      "background_color": "ffffff",
+      "colors": 4,
+      "top_font": "Helvetica Nueue"
+    },
+
+    "blog_rss": "https://beyondloom.com/blog/rss.xml",
+
+    "single_page": false,
+    "blog_centric": false
+	},
+	{
+		"name": "Esteban Herrera",
+		"site": "https://eherrera.net/",
+		"desc": "software developer for over 10 years",
+    "lang": "en",
+    "blog": "https://eherrera.net/blog/",
+    "mail": "estebanhb2@yahoo.com.mx",
+    "face": "https://eherrera.net/images/avatar.jpg",
+    "view": {},
+    "link": {
+      "github": "https://github.com/eh3rrera/",
+      "twitter": "https://twitter.com/eh3rrera/",
+      "quora": "https://www.quora.com/Esteban-Herrera",
+      "goodreads": "https://www.goodreads.com/author/show/7454930.Esteban_Herrera"
+    },
+    "css_overview": {
+      "background_color": "ffffff",
+      "colors": 8,
+      "top_font": "Open Sans"
+    },
+
+    "blog_rss": "https://eherrera.net/feed.xml",
+
+    "single_page": false,
+    "blog_centric": false
+	},
+	{
+		"name": "Bret Victor",
+		"site": "http://worrydream.com/",
+		"desc": "electrical engineer then programmer then designer then hobo now back",
+    "lang": "en",
+    "blog": null,
+    "mail": "bc@worrydream.com",
+    "face": true,
+    "view": {
+      "2021-08-16": 726084
+    },
+    "link": {
+      "twitter": "https://twitter.com/worrydream"
+    },
+    "css_overview": {},
+
+    "rss": "http://worrydream.com/feed.xml",
+
+    "single_page": true,
+    "blog_centric": false,
+    "supports_https": false
+	},
+	{
+		"name": "Maggie Appleton",
+		"site": "https://maggieappleton.com/",
+		"desc": "creates visual explanations about design, anthropology, and programming",
+    "lang": "en",
+    "blog": "https://maggieappleton.com/garden",
+    "mail": null,
+    "face": "https://maggieappleton.com/static/98f2a525c9178e97f75f51735e45a8a6/348a3/profilePic.png",
+    "view": {
+      "2021-08-16": 301238
+    },
+    "link": {
+      "github": "https://github.com/maggieappleton/",
+      "twitter": "https://twitter.com/mappletons/",
+      "dribble": "https://dribbble.com/mappleton",
+      "instagram": "https://www.instagram.com/maggieappleton/"
+    },
+    "css_overview": {
+      "background_color": "ffffff",
+      "colors": 14,
+      "top_font": "FreightSans"
+    },
+
+    "works_for": "egghead.io",
+
+    "single_page": false,
+    "blog_centric": false
+	}
+]
