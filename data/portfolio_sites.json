@@ -17,8 +17,10 @@
       "colors": 29,
       "top_font": "Times New Roman"
     },
+		"open": null,
+		"date": "2021-08-16",
 
-    "blog_rss": "https://feeds.feedblitz.com/sethsblog",
+    "rss_blog": "https://feeds.feedblitz.com/sethsblog",
     "wiki": "https://en.wikipedia.org/wiki/Seth_Godin",
     "book_count": 24,
 
@@ -45,6 +47,8 @@
       "colors": 3,
       "top_font": "Rubik"
     },
+		"open": null,
+		"date": "2021-08-16",
 
     "major_software": ["vue.js"],
     "name_zh": "尤雨溪",
@@ -71,6 +75,8 @@
       "colors": 7,
       "top_font": "Source Sans Pro"
     },
+		"open": "https://github.com/squidarth/squidarth.github.io",
+		"date": "2021-08-16",
 
     "works_for": "Twitter",
     "hobbies": ["gaming"],
@@ -95,8 +101,10 @@
       "colors": 7,
       "top_font": "PT Sans"
     },
+		"open": null,
+		"date": "2021-08-16",
 
-    "blog_rss": "https://ferd.ca/feed.rss",
+    "rss_blog": "https://ferd.ca/feed.rss",
 
     "single_page": false,
     "blog_centric": true
@@ -118,8 +126,10 @@
       "colors": 4,
       "top_font": "Helvetica Nueue"
     },
+		"open": null,
+		"date": "2021-08-16",
 
-    "blog_rss": "https://beyondloom.com/blog/rss.xml",
+    "rss_blog": "https://beyondloom.com/blog/rss.xml",
 
     "single_page": false,
     "blog_centric": false
@@ -144,8 +154,10 @@
       "colors": 8,
       "top_font": "Open Sans"
     },
+		"open": "https://github.com/eh3rrera/eh3rrera.github.io",
+		"date": "2021-08-16",
 
-    "blog_rss": "https://eherrera.net/feed.xml",
+    "rss_blog": "https://eherrera.net/feed.xml",
 
     "single_page": false,
     "blog_centric": false
@@ -165,6 +177,8 @@
       "twitter": "https://twitter.com/worrydream"
     },
     "css_overview": {},
+		"open": null,
+		"date": "2021-08-16",
 
     "rss": "http://worrydream.com/feed.xml",
 
@@ -194,10 +208,204 @@
       "colors": 14,
       "top_font": "FreightSans"
     },
+		"open": "https://github.com/MaggieAppleton/maggieappleton.com",
+		"date": "2021-08-16",
 
     "works_for": "egghead.io",
 
     "single_page": false,
     "blog_centric": false
+	},
+	{
+		"name": "Daniel Eden",
+		"site": "https://daneden.me/",
+		"desc": "a design manager at facebook in london, supporting facebook’s commerce organisation",
+		"lang": "en",
+		"blog": "https://daneden.me/blog",
+		"mail": "dan.eden@me.com",
+		"face": "https://daneden.me/_next/image?url=%2Fuploads%2F2020%2F11%2Fface.jpg&w=1920&q=75",
+		"view": {},
+		"link": {
+		  "github": "https://github.com/daneden",
+      "twitter": "https://twitter.com/_dte"
+		},
+		"css_overview": {
+		  "background_color": "fff5e9",
+		  "colors": 6,
+		  "top_font": "Tiempos Text"
+		},
+		"open": "https://github.com/daneden/daneden.me",
+    "date": "2021-08-20",
+
+    "hobbies": ["sourdough"],
+		"works_for": "Facebook",
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Dave Ceddia",
+		"site": "https://daveceddia.com/",
+		"desc": "a software engineer in the boston area",
+		"lang": "en",
+		"blog": "https://daveceddia.com/archives/",
+		"mail": null,
+		"face": "https://daveceddia.com/images/me.jpg",
+		"view": {
+		  "2021-08-20": 355761
+		},
+		"link": {
+		  "twitter": "https://twitter.com/dceddia"
+		},
+		"css_overview": {
+		  "background_color": "ffffff",
+		  "colors": 7,
+		  "top_font": "Avenir Next"
+		},
+		"open": null,
+    "date": "2021-08-20",
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Becca Abbe",
+		"site": "http://cdxs.ist/",
+		"desc": "graphic design, typesetting, branding, programming, print and digital",
+		"lang": "en",
+		"blog": null,
+		"mail": "beccaabbe@gmail.com",
+		"face": null,
+		"view": {},
+		"link": {
+		  "instagram": "https://www.instagram.com/cdxs",
+      "twitter": "https://twitter.com/bbbeeccaa"
+		},
+		"css_overview": {
+		  "background_color": "fdf1d9",
+		  "colors": 3,
+		  "top_font": "Verdana"
+		},
+		"open": null,
+    "date": "2021-08-29",
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": false
+	},
+	{
+		"name": "Arun Venkatesan",
+		"site": "https://www.arun.is/",
+		"desc": "a designer with a background in engineering and co-founder at carrot",
+		"lang": "en",
+		"blog": "https://www.arun.is/",
+		"mail": "me@arun.is",
+		"face": "https://www.arun.is/headshot.jpg",
+		"view": {},
+		"link": {
+		  "github": "https://github.com/arun-is",
+      "linkedin": "https://www.linkedin.com/in/arunve/",
+      "twitter": "https://twitter.com/zhenpixels",
+      "instagram": "https://www.instagram.com/zhenpixels/",
+      "dribble": "http://dribbble.com/zhenpixels"
+		},
+		"css_overview": {
+		  "background_color": "00000005",
+		  "colors": 16,
+		  "top_font": "Inter"
+		},
+		"open": null,
+    "date": "2021-08-29",
+
+		"hobbies": ["travelling", "running", "photography"],
+		"rss": "https://www.arun.is/rss.xml",
+
+		"single_page": false,
+		"blog_centric": true,
+		"supports_https": true
+	},
+	{
+		"name": "Maximilian Schiller",
+		"site": "https://maximilianschiller.de/",
+		"desc": "ui/visual/web designer",
+		"lang": "en",
+		"blog": null,
+		"mail": "hello@mxis.ch",
+		"face": null,
+		"view": {},
+		"link": {
+		  "github": "https://github.com/BetaHuhn",
+      "instagram": "https://instagram.com/creerow",
+      "dribble": "https://dribbble.com/betahuhn"
+		},
+		"css_overview": {
+		  "background_color": "222222",
+		  "colors": 15,
+		  "top_font": "-apple-system"
+		},
+    "open": "https://github.com/BetaHuhn/portfolio",
+    "date": "2021-08-29",
+
+		"langs": ["en", "de"],
+
+		"single_page": true,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Maarten Hus",
+		"site": "https://www.maartenhus.nl/",
+		"desc": "dutch, a husband, father of two, software developer and educator",
+		"lang": "en",
+		"blog": "https://www.maartenhus.nl/blog",
+		"mail": "info@maartenhus.nl",
+		"face": "https://www.maartenhus.nl/static/me.b8f135c3.png",
+		"view": {},
+		"link": {
+		  "github": "https://github.com/MrHus",
+      "twitter": "https://twitter.com/MrHus",
+      "linkedin": "https://www.linkedin.com/in/maarten-hus-115997170/",
+      "whatsapp": "https://wa.me/31639444140",
+      "telegram": "https://telegram.me/maartenhus"
+		},
+		"css_overview": {
+		  "background_color": "f9fafb",
+		  "colors": 12,
+		  "top_font": "Inter"
+		},
+		"open": null,
+		"date": "2021-08-29",
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Sheila Leon",
+		"site": "https://sheilaleon.tech/",
+		"desc": "frontend developer based out of sydney, australia",
+		"lang": "en",
+		"blog": "https://sheilaleon.tech/the-garden/",
+		"mail": null,
+		"face": null,
+		"view": {},
+		"link": {
+		  "github": "https://github.com/sheilaleon"
+		},
+		"css_overview": {
+		  "background_color": "f7f9f7",
+		  "colors": 7,
+		  "top_font": "system-ui"
+		},
+		"open": "https://github.com/sheilaleon/sheilaleon.tech",
+		"date": "2021-08-30",
+
+		"hobbies": ["reading", "gaming", "cooking", "gardening"],
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": true
 	}
 ]
