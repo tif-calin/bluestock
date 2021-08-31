@@ -407,5 +407,57 @@
 		"single_page": false,
 		"blog_centric": false,
 		"supports_https": true
+	},
+	{
+		"name": "Craig Hockenberry",
+		"site": "https://furbo.org/",
+		"desc": "I make apps and run websites",
+		"lang": "en",
+		"blog": "https://furbo.org/",
+		"mail": "craig.hockenberry@gmail.com",
+		"face": null,
+		"view": {},
+		"link": {
+		  "twitter": "https://twitter.com/chockenberry"
+		},
+		"css_overview": {
+		  "background_color": "ffffff",
+		  "colors": 15,
+		  "top_font": "Avenir Next"
+		},
+		"open": null,
+		"date": "2021-08-30",
+
+		"rss": "https://furbo.org/feed",
+
+		"single_page": false,
+		"blog_centric": true,
+		"supports_https": true
+	},
+	{
+		"name": "Guillermo Rauch",
+		"site": "https://rauchg.com/",
+		"desc": "Vercel CEO",
+		"lang": "en",
+		"blog": "https://rauchg.com/",
+		"mail": null,
+		"face": null,
+		"view": {},
+		"link": {
+		  "github": "xxx"
+		},
+		"css_overview": {
+		  "background_color": "ffffff",
+		  "colors": 5,
+		  "top_font": "-apple-system"
+		},
+		"open": "https://github.com/rauchg/blog",
+		"date": "2021-08-30",
+
+		"works_for": "Vercel",
+
+		"single_page": true,
+		"blog_centric": true,
+		"supports_https": true
 	}
 ]
