@@ -13,7 +13,7 @@
       "twitter": "http://www.twitter.com/thisissethsblog"
     },
     "css_overview": {
-      "background_color": "ffffff",
+      "background_color": "#ffffff",
       "colors": 29,
       "top_font": "Times New Roman"
     },
@@ -43,7 +43,7 @@
       "zhihu": "https://www.zhihu.com/people/evanyou"
     },
     "css_overview": {
-      "background_color": "ffffff",
+      "background_color": "#ffffff",
       "colors": 3,
       "top_font": "Rubik"
     },
@@ -71,7 +71,7 @@
       "twitter": "https://twitter.com/sidpshanker"
     },
     "css_overview": {
-      "background_color": "ffffff",
+      "background_color": "#ffffff",
       "colors": 7,
       "top_font": "Source Sans Pro"
     },
@@ -97,7 +97,7 @@
       "twitter": "http://twitter.com/mononcqc/"
     },
     "css_overview": {
-      "background_color": "f8f8f8",
+      "background_color": "#f8f8f8",
       "colors": 7,
       "top_font": "PT Sans"
     },
@@ -122,7 +122,7 @@
       "github": "https://github.com/JohnEarnest"
     },
     "css_overview": {
-      "background_color": "ffffff",
+      "background_color": "#ffffff",
       "colors": 4,
       "top_font": "Helvetica Nueue"
     },
@@ -150,7 +150,7 @@
       "goodreads": "https://www.goodreads.com/author/show/7454930.Esteban_Herrera"
     },
     "css_overview": {
-      "background_color": "ffffff",
+      "background_color": "#ffffff",
       "colors": 8,
       "top_font": "Open Sans"
     },
@@ -204,7 +204,7 @@
       "instagram": "https://www.instagram.com/maggieappleton/"
     },
     "css_overview": {
-      "background_color": "ffffff",
+      "background_color": "#ffffff",
       "colors": 14,
       "top_font": "FreightSans"
     },
@@ -230,7 +230,7 @@
       "twitter": "https://twitter.com/_dte"
 		},
 		"css_overview": {
-		  "background_color": "fff5e9",
+		  "background_color": "#fff5e9",
 		  "colors": 6,
 		  "top_font": "Tiempos Text"
 		},
@@ -259,7 +259,7 @@
 		  "twitter": "https://twitter.com/dceddia"
 		},
 		"css_overview": {
-		  "background_color": "ffffff",
+		  "background_color": "#ffffff",
 		  "colors": 7,
 		  "top_font": "Avenir Next"
 		},
@@ -284,7 +284,7 @@
       "twitter": "https://twitter.com/bbbeeccaa"
 		},
 		"css_overview": {
-		  "background_color": "fdf1d9",
+		  "background_color": "#fdf1d9",
 		  "colors": 3,
 		  "top_font": "Verdana"
 		},
@@ -312,7 +312,7 @@
       "dribble": "http://dribbble.com/zhenpixels"
 		},
 		"css_overview": {
-		  "background_color": "00000005",
+		  "background_color": "#00000005",
 		  "colors": 16,
 		  "top_font": "Inter"
 		},
@@ -341,7 +341,7 @@
       "dribble": "https://dribbble.com/betahuhn"
 		},
 		"css_overview": {
-		  "background_color": "222222",
+		  "background_color": "#222222",
 		  "colors": 15,
 		  "top_font": "-apple-system"
 		},
@@ -371,7 +371,7 @@
       "telegram": "https://telegram.me/maartenhus"
 		},
 		"css_overview": {
-		  "background_color": "f9fafb",
+		  "background_color": "#f9fafb",
 		  "colors": 12,
 		  "top_font": "Inter"
 		},
@@ -395,7 +395,7 @@
 		  "github": "https://github.com/sheilaleon"
 		},
 		"css_overview": {
-		  "background_color": "f7f9f7",
+		  "background_color": "#f7f9f7",
 		  "colors": 7,
 		  "top_font": "system-ui"
 		},
@@ -421,7 +421,7 @@
 		  "twitter": "https://twitter.com/chockenberry"
 		},
 		"css_overview": {
-		  "background_color": "ffffff",
+		  "background_color": "#ffffff",
 		  "colors": 15,
 		  "top_font": "Avenir Next"
 		},
@@ -444,12 +444,12 @@
 		"face": null,
 		"view": {},
 		"link": {
-		  "github": "xxx"
+		  "twitter": "https://twitter.com/rauchg"
 		},
 		"css_overview": {
-		  "background_color": "ffffff",
+		  "background_color": "#ffffff",
 		  "colors": 5,
-		  "top_font": "-apple-system"
+		  "top_font": "-apple-system, BlinkMacSystemFont, sans-serif"
 		},
 		"open": "https://github.com/rauchg/blog",
 		"date": "2021-08-30",
@@ -458,6 +458,53 @@
 
 		"single_page": true,
 		"blog_centric": true,
+		"supports_https": true
+	},
+	{
+		"name": "Fredrik Holmqvist",
+		"site": "https://www.fredrikholmqvist.com/",
+		"desc": "software engineer, primarily iot projects",
+		"lang": "en",
+		"blog": "https://www.fredrikholmqvist.com/posts/",
+		"mail": "fredrik.d.holmqvist@gmail.com",
+		"face": null,
+		"view": {},
+		"link": {},
+		"css_overview": {
+		  "background_color": "#ffe386",
+		  "colors": 5,
+		  "top_font": "Inconsolata, monospace"
+		},
+		"open": null,
+		"date": "2021-09-01",
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Heydon Pickering",
+		"site": "https://heydonworks.com/",
+		"desc": "technical writer and designer for the web",
+		"lang": "en",
+		"blog": "https://heydonworks.com/latest/",
+		"mail": "heydon@heydonworks.com",
+		"face": null,
+		"view": {},
+		"link": {},
+		"css_overview": {
+		  "background_color": "#fefefe",
+		  "colors": 3,
+		  "top_font": "Georgia, serif"
+		},
+		"open": null,
+		"date": "2021-09-04",
+		
+		"book_count": 2,
+		"rss": "https://heydonworks.com/feed.xml",
+
+		"single_page": false,
+		"blog_centric": false,
 		"supports_https": true
 	}
 ]
