@@ -14,8 +14,12 @@
     },
     "css_overview": {
       "background_color": "#ffffff",
+			"text_color": "#1d2023",
       "colors": 29,
-      "top_font": "Times New Roman"
+      "top_font": "Times New Roman",
+
+			"headings_font": "'bebas neue', bebas, helvetica, sans-serif",
+			"body_font": "'source sans pro', helvetica, sans-serif"
     },
 		"open": null,
 		"date": "2021-08-16",
@@ -43,9 +47,10 @@
       "zhihu": "https://www.zhihu.com/people/evanyou"
     },
     "css_overview": {
-      "background_color": "#ffffff",
+      "background_color": null,
+			"text_color": "#121314",
       "colors": 3,
-      "top_font": "Rubik"
+      "top_font": "'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
     },
 		"open": null,
 		"date": "2021-08-16",
@@ -72,8 +77,9 @@
     },
     "css_overview": {
       "background_color": "#ffffff",
+			"text_color": "#2b2826",
       "colors": 7,
-      "top_font": "Source Sans Pro"
+      "top_font": "'Source Sans Pro', sans-serif"
     },
 		"open": "https://github.com/squidarth/squidarth.github.io",
 		"date": "2021-08-16",
@@ -98,8 +104,11 @@
     },
     "css_overview": {
       "background_color": "#f8f8f8",
+			"text_color": "#888888",
       "colors": 7,
-      "top_font": "PT Sans"
+      "top_font": "'PT Sans', Trebuchet Ms, Arial",
+
+			"headings_font": "Lora, Georgia"
     },
 		"open": null,
 		"date": "2021-08-16",
@@ -342,8 +351,9 @@
 		},
 		"css_overview": {
 		  "background_color": "#222222",
+			"text_color": "#ffffff",
 		  "colors": 15,
-		  "top_font": "-apple-system"
+		  "top_font": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif"
 		},
     "open": "https://github.com/BetaHuhn/portfolio",
     "date": "2021-08-29",
@@ -504,6 +514,61 @@
 		"rss": "https://heydonworks.com/feed.xml",
 
 		"single_page": false,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Martin Zimmermann",
+		"site": "https://posativ.org/",
+		"desc": "open source developer",
+		"lang": "en",
+		"blog": "https://blog.posativ.org/",
+		"mail": "info@posativ.org",
+		"face": null,
+		"view": {},
+		"link": {
+		  "github": "https://github.com/posativ"
+		},
+		"css_overview": {
+		  "background_color": "#fbfbfb",
+		  "text_color": "#333333",
+		  "colors": 5,
+		  "top_font": "Verdana, sans-serif"
+		},
+		"open": "https://github.com/posativ/posativ.org",
+		"date": "2021-09-06",
+		
+		"rss_blog": "https://blog.posativ.org/rss/",
+
+		"single_page": true,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Francesco Mazzoli",
+		"site": "https://mazzo.li/",
+		"desc": "a programmer",
+		"lang": "en",
+		"blog": "https://mazzo.li/archive.html",
+		"mail": "f@mazzo.li",
+		"face": null,
+		"view": {
+		  "2021-09-06": 477686
+		},
+		"link": {
+		  "github": "https://github.com/bitonic",
+			"twitter": "https://twitter.com/trascendentale"
+		},
+		"css_overview": {
+		  "background_color": "#ffffffcc",
+		  "text_color": "#000000",
+		  "colors": 2,
+		  "top_font": "\"IBM Plex Serif\", Garamond, serif"
+		},
+		"open": "https://github.com/bitonic/mazzo.li",
+		"date": "2021-09-06",
+
+		"single_page": true,
 		"blog_centric": false,
 		"supports_https": true
 	}
