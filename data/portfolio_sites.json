@@ -29,7 +29,8 @@
     "book_count": 24,
 
     "single_page": false,
-    "blog_centric": false
+    "blog_centric": false,
+		"supports_https": true
 	},
 	{
 		"name": "Evan You",
@@ -60,7 +61,8 @@
     "hobbies": ["gaming", "karaoke", "sushi", "watch-collecting"],
 
     "single_page": true,
-    "blog_centric": false
+    "blog_centric": false,
+		"supports_https": true
 	},
 	{
 		"name": "Sid Shanker",
@@ -88,7 +90,8 @@
     "hobbies": ["gaming"],
 
     "single_page": false,
-    "blog_centric": true
+    "blog_centric": true,
+		"supports_https": true
 	},
 	{
 		"name": "Fred Hebert",
@@ -116,7 +119,8 @@
     "rss_blog": "https://ferd.ca/feed.rss",
 
     "single_page": false,
-    "blog_centric": true
+    "blog_centric": true,
+		"supports_https": true
 	},
 	{
 		"name": "John Earnest",
@@ -131,9 +135,12 @@
       "github": "https://github.com/JohnEarnest"
     },
     "css_overview": {
-      "background_color": "#ffffff",
+      "background_color": null,
+			"text_color": "#21183c",
       "colors": 4,
-      "top_font": "Helvetica Nueue"
+      "top_font": "Helvetica Neue,Arial,sans-serif",
+
+			"headings_font": "Times New Roman"
     },
 		"open": null,
 		"date": "2021-08-16",
@@ -141,7 +148,8 @@
     "rss_blog": "https://beyondloom.com/blog/rss.xml",
 
     "single_page": false,
-    "blog_centric": false
+    "blog_centric": false,
+		"supports_https": true
 	},
 	{
 		"name": "Esteban Herrera",
@@ -569,6 +577,36 @@
 		"date": "2021-09-06",
 
 		"single_page": true,
+		"blog_centric": false,
+		"supports_https": true
+	},
+	{
+		"name": "Rachel Kroll",
+		"site": "https://rachelbythebay.com/",
+		"desc": "software, technology, sysadmin war stories, and more",
+		"lang": "en",
+		"blog": "https://rachelbythebay.com/w/",
+		"mail": null,
+		"face": null,
+		"view": {
+		  "2021-09-06": 300050
+		},
+		"link": {
+		  "github": "https://github.com/rachelbythebay"
+		},
+		"css_overview": {
+		  "background_color": "#a0a0a0",
+		  "text_color": "#000000",
+		  "colors": 6,
+		  "top_font": "helvetica, sans-serif"
+		},
+		"open": null,
+		"date": "2021-09-06",
+
+		"book_count": 2,
+		"rss_blog": "https://rachelbythebay.com/w/atom.xml",
+
+		"single_page": false,
 		"blog_centric": false,
 		"supports_https": true
 	}
