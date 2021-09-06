@@ -18,6 +18,7 @@ const munge = portfolio => {
   if (rest.face) tags.push('has_face');
   if (rest.blog) tags.push('has_blog');
   if (rest.mail) tags.push('has_mail');
+  if (rest.open) tags.push('open_source');
 
   rest.tld = rest.site.split('/')[2].split('.').at(-1);
   rest.url_length = rest.site.split('//')[1].length;
