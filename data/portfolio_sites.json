@@ -609,5 +609,61 @@
 		"single_page": false,
 		"blog_centric": false,
 		"supports_https": true
+	},
+	{
+		"name": "Vanessa McHale",
+		"site": "http://vmchale.com/",
+		"desc": "a programmer and erstwhile math major",
+		"lang": "en",
+		"blog": null,
+		"mail": "vamchale@gmail.com",
+		"face": null,
+		"view": {},
+		"link": {
+		  "github": "http://github.com/vmchale",
+			"instagram": "http://instagram.com/vanessa.mchale",
+			"twitter": "http://twitter.com/vamchale",
+			"darcshub": "https://hub.darcs.net/vmchale"
+		},
+		"css_overview": {
+		  "background_color": "none",
+		  "text_color": "#000000",
+		  "colors": 3,
+		  "top_font": "Helvetica, \"Raleway\", \"HelveticaNeue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;"
+		},
+		"open": null,
+		"date": "2021-09-19",
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": false
+	},
+	{
+		"name": "Damien Poulain",
+		"site": "http://damienpoulain.com/",
+		"desc": "an artist responding to various invitations, exploring design and architecture",
+		"lang": "en",
+		"blog": "http://damienpoulain.com/the-news/",
+		"mail": "hello@damienpoulain.com",
+		"face": null,
+		"view": {},
+		"link": {
+		  "instagram": "http://www.instagram.com/damienpoulain"
+		},
+		"css_overview": {
+		  "background_color": "#f5f5f5",
+		  "text_color": "#000000",
+		  "colors": 6,
+		  "top_font": "'LinotypeUniversBasicRegular'",
+		  
+		  "headings_font": "'LinotypeUniversBasicMedium'",
+		  "body_font": "'LinotypeUniversBasicRegular'"
+		},
+		"open": null,
+		"date": "2021-09-19",
+
+		"single_page": false,
+		"blog_centric": false,
+		"supports_https": true
 	}
 ]
